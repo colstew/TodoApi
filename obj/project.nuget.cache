@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+/vn6qV5gIOPNWaTmSDc3S/Qj4WzMl81kapUBPu35uhpxXlHtsqanoi+5Q3j6yg3kHGEe7UW1kIhx0Ot5z3lag==",
+  "dgSpecHash": "Z96jOHOnkiVooEESmiugD97ziMb5HETgOMtKGKMA5A47VWqoxRp8OwbVvotlHxPlabjB8yG/FcsEOmzwzk76Cw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cole\\Documents\\AngularTutorial\\TodoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\Cole\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.9\\microsoft.entityframeworkcore.inmemory.6.0.9.nupkg.sha512",
     "C:\\Users\\Cole\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.9\\microsoft.entityframeworkcore.relational.6.0.9.nupkg.sha512",
     "C:\\Users\\Cole\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.9\\microsoft.entityframeworkcore.sqlserver.6.0.9.nupkg.sha512",
+    "C:\\Users\\Cole\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.5\\microsoft.entityframeworkcore.tools.6.0.5.nupkg.sha512",
     "C:\\Users\\Cole\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Cole\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Cole\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
