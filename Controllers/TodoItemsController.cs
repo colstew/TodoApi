@@ -54,7 +54,10 @@ namespace TodoApi.Controllers
             }
 
             todoItem.Name = todoItemDTO.Name;
+            todoItem.Detail = todoItemDTO.Detail;
+            todoItem.Priority = todoItemDTO.Priority;
             todoItem.IsComplete = todoItemDTO.IsComplete;
+
 
             try
             {
@@ -74,8 +77,10 @@ namespace TodoApi.Controllers
         {
             var todoItem = new TodoItem
             {
-                IsComplete = todoItemDTO.IsComplete,
-                Name = todoItemDTO.Name
+                Name = todoItemDTO.Name,
+                Detail = todoItemDTO.Detail,
+                Priority = todoItemDTO.Priority,
+                IsComplete = todoItemDTO.IsComplete
             };
 
             _context.TodoItems.Add(todoItem);
@@ -114,6 +119,8 @@ namespace TodoApi.Controllers
             {
                 Id = todoItem.Id,
                 Name = todoItem.Name,
+                Detail= todoItem.Detail,
+                Priority= todoItem.Priority,
                 IsComplete = todoItem.IsComplete
             };
     }
