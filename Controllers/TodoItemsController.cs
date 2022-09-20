@@ -24,6 +24,15 @@ namespace TodoApi.Controllers
                 .ToListAsync();
         }
 
+        // GET: api/TodoItems/hp
+        [HttpGet("hp")]
+        public async Task<ActionResult<IEnumerable<TodoItemDTO>>> GetHpTodoItems()
+        {
+            return await _context.TodoItems
+                .Select(x => ItemToDTO(x))
+                .ToListAsync();
+        }
+
         // GET: api/TodoItems/5
         [HttpGet("{id}")]
         public async Task<ActionResult<TodoItemDTO>> GetTodoItem(long id)
