@@ -28,7 +28,7 @@ namespace TodoApi.Controllers
         [HttpGet("hp")]
         public async Task<ActionResult<IEnumerable<TodoItemDTO>>> GetHpTodoItems()
         {
-            return await _context.TodoItems
+            return await _context.TodoItems.Where(todo => todo.Priority == Priority.HIGH)
                 .Select(x => ItemToDTO(x))
                 .ToListAsync();
         }
